@@ -4,6 +4,8 @@ Overlay para mostrar seu distintivo de RP na sua livestream.
 
 Feito inicialmente para a [Malena0202](https://www.facebook.com/Malena0202/) mas disponível para qualquer pessoa que quiser utilizar e/ou modificar 🥰
 
+![](https://i.imgur.com/ziwKzQl.gif)
+
 ## Como adicionar ao StreamElements?
 
 1. Crie uma nova Overlay com a sua resolução
@@ -18,3 +20,7 @@ Feito inicialmente para a [Malena0202](https://www.facebook.com/Malena0202/) mas
 | JS | [overlay.js](overlay.js?raw=1)|
 | Fields | [overlay.json](overlay.json?raw=1)|
 | Data | [overlay_default_data.json](overlay_default_data.json?raw=1)|
+
+Expanda a aba "Settings" para ter acesso aos parâmetros do overlay e configurá-lo facilmente:
+
+![](https://i.imgur.com/LIsW8MM.png)
