@@ -1,0 +1,130 @@
+{
+  "username": {
+  	"type": "string",
+    "label": "Nome do(a) Usuário(a)",
+    "value": "Major meimei Aleluia",
+    "group": "Informações"
+  },
+  "division": {
+  	"type": "string",
+    "label": "Divisão",
+    "value": "[ Comando S.I. ]",
+    "group": "Informações"
+  },
+  "logoUrl": {
+  	"type": "string",
+    "label": "URL da Logo",
+    "value": "https://i.imgur.com/ga3Py5g.png",
+    "group": "Estética - Logo"
+  },
+   "logoOpacity": {
+    "type": "number",
+    "label": "Opacidade da Logo",
+    "value": 0.7,
+    "step": 0.01,
+    "min": 0,
+    "max": 1,
+    "group": "Estética - Logo"
+  },
+  "logoHeight": {
+    "type": "number",
+    "label": "Altura da Logo (em px)",
+    "value": 64,
+    "step": 1,
+    "min": 1,
+    "group": "Estética - Logo"
+  },
+  "logoPlateColor": {
+  	"type": "colorpicker",
+    "label": "Cor do Fundo da Logo",
+    "value": "#18181b",
+    "group": "Estética - Fundos"
+  },
+  "logoPlateOpacity": {
+    "type": "number",
+    "label": "Opacidade do Fundo da Logo",
+    "value": 0.7,
+    "step": 0.01,
+    "min": 0,
+    "max": 1,
+    "group": "Estética - Fundos"
+  },
+  "informationPlateColor": {
+  	"type": "colorpicker",
+    "label": "Cor do Fundo de Informações",
+    "value": "#18181b",
+    "group": "Estética - Fundos"
+  },
+   "informationPlateOpacity": {
+    "type": "number",
+    "label": "Opacidade do Fundo de Informações",
+    "value": 0.9,
+    "step": 0.01,
+    "min": 0,
+    "max": 1,
+    "group": "Estética - Fundos"
+  },
+  "pulseDotColor": {
+  	"type": "colorpicker",
+    "label": "Cor do Pontinho Pulsante",
+    "value": "#dc2626",
+    "group": "Estética - Fundos"
+  },
+  "usernameTextColor": {
+  	"type": "colorpicker",
+    "label": "Cor do Texto de Usuário(a)",
+    "value": "#ffffff",
+    "group": "Estética - Textos"
+  },
+  "usernameTextSize": {
+    "type": "dropdown",
+    "label": "Tamanho do Texto de Usuário(a)",
+    "value": "base",
+    "options": {
+      "xs": "Super Pequeno",
+      "sm": "Pequeno",
+      "base": "Normal",
+      "lg": "Grande",
+      "xl": "Super Grande"
+    },
+    "group": "Estética - Textos"
+  },
+  "divisionTextColor": {
+  	"type": "colorpicker",
+    "label": "Cor do Texto da Divisão",
+    "value": "#f59e0b",
+    "group": "Estética - Textos"
+  },
+  "divisionTextSize": {
+    "type": "dropdown",
+    "label": "Tamanho do Texto da Divisão",
+    "value": "base",
+    "options": {
+      "xs": "Super Pequeno",
+      "sm": "Pequeno",
+      "base": "Normal",
+      "lg": "Grande",
+      "xl": "Super Grande"
+    },
+    "group": "Estética - Textos"
+  },
+  "clockTextColor": {
+  	"type": "colorpicker",
+    "label": "Cor do Texto do Relógio",
+    "value": "#ffffff",
+    "group": "Estética - Textos"
+  },
+  "clockTextSize": {
+    "type": "dropdown",
+    "label": "Tamanho do Texto do Relógio",
+    "value": "base",
+    "options": {
+      "xs": "Super Pequeno",
+      "sm": "Pequeno",
+      "base": "Normal",
+      "lg": "Grande",
+      "xl": "Super Grande"
+    },
+    "group": "Estética - Textos"
+  }
+}

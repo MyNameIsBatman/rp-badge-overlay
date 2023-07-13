@@ -1,0 +1,15 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Criado pelo Bunito batmany (Discord) -->
+<div class="flex gap-1 select-none">
+  <div class="px-3 py-2 bg-[{{informationPlateColor}}]/[{{informationPlateOpacity}}] bg-opacity-90 text-white rounded-bl-md shadow-md flex-col text-right gap-1">
+    <div class="flex items-center justify-end gap-2">
+      <div class="text-{{usernameTextSize}} text-[{{usernameTextColor}}]">{{username}}</div>
+      <div class="h-2 w-2 rounded-full bg-[{{pulseDotColor}}] animate-pulse animate-ping"></div>
+    </div>
+    <div class="text-{{divisionTextSize}} text-[{{divisionTextColor}}] font-bold tracking-wide">{{division}}</div>
+    <div class="text-{{clockTextSize}} text-[{{clockTextColor}}] font-mono font-medium tracking-widest whitespace-nowrap" id="clock">00 00 00 00:00:00</div>
+  </div>
+  <div class="p-1 bg-[{{logoPlateColor}}]/[{{logoPlateOpacity}}] text-white rounded-br-md shadow-md flex items-center gap-1 relative">
+    <img class="h-[{{logoHeight}}px] opacity-[{{logoOpacity}}]" src="{{logoUrl}}" />
+  </div>
+</div>
