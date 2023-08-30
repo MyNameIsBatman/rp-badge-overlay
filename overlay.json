@@ -70,6 +70,20 @@
     "value": "#dc2626",
     "group": "Estética - Fundos"
   },
+  "roundedSize": {
+  	"type": "dropdown",
+    "label": "Tamanho do Arredondamento",
+    "value": "md",
+    "options": {
+      "base": "Nenhum",
+      "xs": "Super Pequeno",
+      "sm": "Pequeno",
+      "md": "Médio",
+      "lg": "Grande",
+      "xl": "Super Grande"
+    },
+    "group": "Estética - Fundos"
+  },
   "usernameTextColor": {
   	"type": "colorpicker",
     "label": "Cor do Texto de Usuário(a)",
