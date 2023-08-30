@@ -70,13 +70,25 @@
     "value": "#dc2626",
     "group": "Estética - Fundos"
   },
-  "roundedSize": {
+  "leftRoundSize": {
   	"type": "dropdown",
-    "label": "Tamanho do Arredondamento",
+    "label": "Tamanho do Arredondamento da Esquerda",
     "value": "md",
     "options": {
-      "base": "Nenhum",
-      "xs": "Super Pequeno",
+      "none": "Nenhum",
+      "sm": "Pequeno",
+      "md": "Médio",
+      "lg": "Grande",
+      "xl": "Super Grande"
+    },
+    "group": "Estética - Fundos"
+  },
+  "rightRoundSize": {
+  	"type": "dropdown",
+    "label": "Tamanho do Arredondamento da Direita",
+    "value": "md",
+    "options": {
+      "none": "Nenhum",
       "sm": "Pequeno",
       "md": "Médio",
       "lg": "Grande",
