@@ -11,6 +11,12 @@
     "value": "[ Comando S.I. ]",
     "group": "Informações"
   },
+  "group": {
+  	"type": "string",
+    "label": "Grupamento",
+    "value": "[ Grupamento das Popozudas ]",
+    "group": "Informações"
+  },
   "logoUrl": {
   	"type": "string",
     "label": "URL da Logo",
@@ -124,6 +130,25 @@
   "divisionTextSize": {
     "type": "dropdown",
     "label": "Tamanho do Texto da Divisão",
+    "value": "base",
+    "options": {
+      "xs": "Super Pequeno",
+      "sm": "Pequeno",
+      "base": "Normal",
+      "lg": "Grande",
+      "xl": "Super Grande"
+    },
+    "group": "Estética - Textos"
+  },
+  "groupTextColor": {
+  	"type": "colorpicker",
+    "label": "Cor do Texto do Grupamento",
+    "value": "#f59e0b",
+    "group": "Estética - Textos"
+  },
+  "groupTextSize": {
+    "type": "dropdown",
+    "label": "Tamanho do Texto do Grupamento",
     "value": "base",
     "options": {
       "xs": "Super Pequeno",
