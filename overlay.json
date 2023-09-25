@@ -1,29 +1,39 @@
 {
   "username": {
-  	"type": "string",
+    "type": "string",
     "label": "Nome do(a) Usuário(a)",
     "value": "Major meimei Aleluia",
     "group": "Informações"
   },
   "division": {
-  	"type": "string",
+    "type": "string",
     "label": "Divisão",
     "value": "[ Comando S.I. ]",
     "group": "Informações"
   },
   "group": {
-  	"type": "string",
+    "type": "string",
     "label": "Grupamento",
     "value": "[ Grupamento das Popozudas ]",
     "group": "Informações"
   },
+  "logoPosition": {
+    "type": "dropdown",
+    "label": "Posição da Logo",
+    "value": "l",
+    "options": {
+      "l": "Esquerda",
+      "r": "Direita"
+    },
+    "group": "Estética - Logo"
+  },
   "logoUrl": {
-  	"type": "string",
+    "type": "string",
     "label": "URL da Logo",
     "value": "https://i.imgur.com/ga3Py5g.png",
     "group": "Estética - Logo"
   },
-   "logoOpacity": {
+  "logoOpacity": {
     "type": "number",
     "label": "Opacidade da Logo",
     "value": 0.7,
@@ -41,7 +51,7 @@
     "group": "Estética - Logo"
   },
   "logoPlateColor": {
-  	"type": "colorpicker",
+    "type": "colorpicker",
     "label": "Cor do Fundo da Logo",
     "value": "#18181b",
     "group": "Estética - Fundos"
@@ -56,12 +66,12 @@
     "group": "Estética - Fundos"
   },
   "informationPlateColor": {
-  	"type": "colorpicker",
+    "type": "colorpicker",
     "label": "Cor do Fundo de Informações",
     "value": "#18181b",
     "group": "Estética - Fundos"
   },
-   "informationPlateOpacity": {
+  "informationPlateOpacity": {
     "type": "number",
     "label": "Opacidade do Fundo de Informações",
     "value": 0.9,
@@ -71,13 +81,13 @@
     "group": "Estética - Fundos"
   },
   "pulseDotColor": {
-  	"type": "colorpicker",
+    "type": "colorpicker",
     "label": "Cor do Pontinho Pulsante",
     "value": "#dc2626",
     "group": "Estética - Fundos"
   },
   "leftRoundSize": {
-  	"type": "dropdown",
+    "type": "dropdown",
     "label": "Tamanho do Arredondamento da Esquerda",
     "value": "md",
     "options": {
@@ -90,7 +100,7 @@
     "group": "Estética - Fundos"
   },
   "rightRoundSize": {
-  	"type": "dropdown",
+    "type": "dropdown",
     "label": "Tamanho do Arredondamento da Direita",
     "value": "md",
     "options": {
@@ -102,8 +112,18 @@
     },
     "group": "Estética - Fundos"
   },
+  "textAlignment": {
+    "type": "dropdown",
+    "label": "Alinhamento do Texto",
+    "value": "right",
+    "options": {
+      "left": "Esquerda",
+      "right": "Direita"
+    },
+    "group": "Estética - Textos"
+  },
   "usernameTextColor": {
-  	"type": "colorpicker",
+    "type": "colorpicker",
     "label": "Cor do Texto de Usuário(a)",
     "value": "#ffffff",
     "group": "Estética - Textos"
@@ -122,7 +142,7 @@
     "group": "Estética - Textos"
   },
   "divisionTextColor": {
-  	"type": "colorpicker",
+    "type": "colorpicker",
     "label": "Cor do Texto da Divisão",
     "value": "#f59e0b",
     "group": "Estética - Textos"
@@ -141,7 +161,7 @@
     "group": "Estética - Textos"
   },
   "groupTextColor": {
-  	"type": "colorpicker",
+    "type": "colorpicker",
     "label": "Cor do Texto do Grupamento",
     "value": "#f59e0b",
     "group": "Estética - Textos"
@@ -160,7 +180,7 @@
     "group": "Estética - Textos"
   },
   "clockTextColor": {
-  	"type": "colorpicker",
+    "type": "colorpicker",
     "label": "Cor do Texto do Relógio",
     "value": "#ffffff",
     "group": "Estética - Textos"

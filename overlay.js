@@ -1,6 +1,5 @@
-setInterval(() =>
-{
-  const months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul","Ago","Set","Out","Nov","Dez"];
+setInterval(() => {
+  const months = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 
   var date = new Date();
   var day = date.getDate();
@@ -23,3 +22,9 @@ setInterval(() =>
 
   document.getElementById('clock').innerHTML = `${day} ${months[month]} ${year} ${hours}:${minutes}:${seconds}`;
 }, 1000);
+
+window.addEventListener('onWidgetLoad', function (obj) {
+  const { fieldData } = obj.detail;
+  if (fieldData.logoPosition == "l")
+    document.getElementById("info-plate").className = document.getElementById("info-plate").className.replace('rounded-l', 'rounded-r');
+});
